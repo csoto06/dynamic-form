@@ -4,7 +4,7 @@ import "./FirstStep.css";
 
 export default function CardFruit({fruit, clickCard, selectedCard}) {
 
-    const {id, icon, name, description} = fruit;
+    const {icon, name, description} = fruit;
 
   return (
     <Col 
